@@ -1,0 +1,28 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+
+.quantity-block {
+  width: 35%;
+  justify-content: center;
+  display: flex;
+
+
+  &__num {
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    width: 34%;
+    margin: 0px 11px;
+  }
+  
+  input {
+    text-align: center;
+    padding: 0px 11px;
+  }
+}

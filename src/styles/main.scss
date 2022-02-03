@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap');
+@import 'bootstrap-reboot/dist/reboot.css';
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 958px;
+  height: 100%;
+}
+
+
+
+@import 'base/_variables.scss';
+@import 'base/btn.scss';
+@import 'base/title';
+@import 'base/price';
+@import 'base/close-btn';
+@import 'base/quantity-block.scss';
+@import 'base/divider.scss';
+
+@import 'parts/_header.scss';
+@import 'parts/products';
+@import 'parts/footer';
+@import 'parts/modal'

@@ -1,0 +1,20 @@
+.close {
+    position: absolute;
+    top: 16px;
+    right: 29px;
+    font-weight: 400;
+    font-size: 35px;
+    cursor: pointer;
+    
+    img {
+        transition: all .3s;
+        border-radius: 100%;
+        width: 40px;
+        padding: 5px;
+
+        &:hover {
+            background-color: rgba(202, 173, 173, 0.973);
+        }
+
+    }
+}

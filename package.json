@@ -1,0 +1,16 @@
+{
+  "name": "qshop",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.49.4",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "bootstrap-reboot": "^4.5.6"
+  }
+}
