@@ -1,3 +1,4 @@
+const { resolve } = require('path')
 const path = require('path')
 /**
  * @type {import('vite').UserConfig}
@@ -9,7 +10,16 @@ const config = {
         alias: {
             '@': path.resolve(__dirname,'./src') 
         }
-    }
+    },
+
+    build: {
+        rollupOptions: {
+          input: {
+            main: resolve(__dirname, 'index.html'),
+            admin: resolve(__dirname, 'index2.html')
+          }
+        }
+      }
 }
 
 export default config
