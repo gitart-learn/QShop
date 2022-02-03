@@ -11,10 +11,17 @@ body {
   max-width: 958px;
   height: 100%;
 }
-
-
-
 @import 'base/_variables.scss';
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: $main-color;
+  }
+}
+
+
 @import 'base/btn.scss';
 @import 'base/title';
 @import 'base/price';
@@ -26,3 +33,4 @@ body {
 @import 'parts/products';
 @import 'parts/footer';
 @import 'parts/modal'
+

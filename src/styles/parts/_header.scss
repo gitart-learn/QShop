@@ -10,12 +10,7 @@
         justify-content: space-between;
 
     }
-    a {
-        text-decoration: none;
-        &:hover {
-            color: $main-color;
-        }
-    }
+
 
     &__title {
         color: $main-color;
