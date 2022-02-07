@@ -1,7 +1,7 @@
 @media(max-width: 1300px) {
     .toCart-page {
         .btn.btn--bg-color.btn--padding-70 {
-            padding: 0 60px;
+            padding: 0 50px;
         }
     }
 
@@ -20,6 +20,11 @@
 }
 
 @media(max-width: 1100px) {
+    .modal-window.modal-window__cart {
+        .btn.btn--bg-color.btn--padding-70 {
+            padding: 0 40px;
+        }
+    }
     .cart-list {
         .cart-item {
             display: grid;
@@ -75,9 +80,33 @@
     }
 }
 
-@media(max-width: 992px) {}
+@media(max-width: 992px) {
+    .modal-window.modal-window__cart {
+        .toCart-page {
+            padding: 10px 13px 5px 15px;
+            &__total {
+                font-size: 25px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+        .btn.btn--bg-color.btn--padding-70 {
+            padding: 0px 20px;
+        }
+    }
+}
 
 @media(max-width: 768px) {
+    .btn {
+
+        &:focus {
+            &:hover {
+                background-color: #fff;
+
+            }
+        }
+    }
     .products {
         .title {
             font-size: 30px;
@@ -134,11 +163,30 @@
         }
 
     }
+    .modal-window.modal-window__cart {
+        .toCart-page {
+            justify-content: space-around;
+            margin-left: 30%;
+        }
+    }
 }
 
 
 
 @media(max-width: 575px) {
+    .modal-window.modal-window__cart {
+        padding: 20px 20px;
+        .close {
+            top: 4px;
+            right: 9px;
+        }
+        .toCart-page {
+            margin-left: 0;
+            &__total {
+                font-size: 20px;
+            }
+        }
+    }
     .products {
         .title {
             font-size: 30px;
@@ -159,7 +207,14 @@
             font-size: 20px;
         }
     }
-    .cart-list {
+
+    ul.cart-list {
+        padding: 0px;
+
+        &::-webkit-scrollbar {
+            width: 0px;
+        }
+
         .cart-item {
             .title.title--font-size-18.title--margin-bottom-width {
                 padding-left: 0;
@@ -167,17 +222,31 @@
                 grid-column-end: 3;
                 font-size: 15px;
             }
+
             .title.title--font-size-24 {
                 grid-column-start: 1;
                 grid-column-end: 3;
             }
+
             .btn.btn--border-color.btn--padding18 {
                 width: 81%;
             }
+
             .btn.btn--padding22.btn--font-size-22 {
-                display: contents;
+                display: flex;
+                justify-content: center;
                 font-size: 30px;
+                align-items: center;
+                padding: 1px 16px;
+                width: 43px;
+                height: 43px;
+                border-radius: 100%;
             }
         }
+    }
+}
+@media(max-width: 374px) {
+    .modal-window.modal-window__cart {
+        padding: 20px 5px;
     }
 }

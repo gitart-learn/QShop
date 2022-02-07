@@ -38,6 +38,7 @@
     max-height: 53%;
     overflow-y: auto;
     &::-webkit-scrollbar {
+        width: 0px;
         background-color: #9c9ea1;
         border-radius: $border-radius;
     }
