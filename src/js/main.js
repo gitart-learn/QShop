@@ -3,6 +3,7 @@ import '../styles/main.scss'
 const cartBtnEl = document.querySelector('#cartBTN')
 const modalLayerEl = document.querySelector('.modal-overlay')
 const modalCartEl = document.querySelector('#modalCart')
+const toCartPageBtnEl = document.querySelector('#toCartPage')
 
 cartBtnEl.addEventListener('click', function () {
     modalLayerEl.style.display = 'block'
@@ -14,4 +15,5 @@ cartBtnEl.addEventListener('click', function () {
             modalCartEl.style.display = ''
         }
     })
+    toCartPageBtnEl.addEventListener('click', () => window.open('./index2.html'))
 })
