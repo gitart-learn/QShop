@@ -23,23 +23,21 @@
 
 }
 
-#cartBTN {
+.btn:not(:first-child) {
     position: relative;
-    &:after {
-        content: '!';
+    span {
         color: #FFFFFF;
         font-size: 9px;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 12px;
-        top: 3px;
-        right: 6px;
+        top: 2px;
+        right: 8px;
         height: 12px;
         border-radius: 100%;
         z-index: 1;
         position: absolute;
         background-color: #FF5252;
-        // display: none;
     }
 }

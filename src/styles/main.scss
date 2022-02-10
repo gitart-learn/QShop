@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap');
 @import 'bootstrap-reboot/dist/reboot.css';
 
-@import '_media.scss';
 
 @import 'base/_variables.scss';
 @import 'base/btn.scss';
@@ -16,6 +15,9 @@
 @import 'parts/footer';
 @import 'parts/modal';
 
+@import '_media.scss';
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -25,7 +27,7 @@ body {
   padding: 0 50px;
   margin: 0 auto;
   width: 100%;
-  max-width: 958px;
+  max-width: 1057px;
   height: 100%;
 }
 
