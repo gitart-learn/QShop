@@ -1,11 +1,10 @@
 .cart-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
     .cart-list {
-        width: 630px;
-        max-width: 100%;
-        padding: 0;
+        padding: 0px 34px 0 0;
     }
 }
 
@@ -30,5 +29,40 @@
         font-size: 40px;
         color: #009688;
 
+    }
+}
+
+
+//media requests
+
+@media(max-width: 992px) {
+    .cart-content {
+        padding: 0 60px;
+        flex-direction: column;
+
+        .cart-list {
+            padding: 0;
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .cart-content {
+        padding: 0;
+
+        .btn--size-lg {
+            padding: 12px 58px;
+        }
+    }
+
+    .total-price {
+        .title__name {
+            font-weight: 500;
+            font-size: 30px;
+        }
+
+        &__num {
+            font-size: 35px;
+        }
     }
 }

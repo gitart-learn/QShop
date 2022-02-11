@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap');
 @import 'bootstrap-reboot/dist/reboot.css';
 
+@import '../../node_modules/animate.css/animate.css';
+
+
 
 @import 'base/_variables.scss';
 @import 'base/btn.scss';
@@ -9,6 +12,7 @@
 @import 'base/close-btn';
 @import 'base/quantity-block.scss';
 @import 'base/divider.scss';
+@import 'base/_animation.css';
 
 @import 'parts/_header.scss';
 @import 'parts/products';
