@@ -8,17 +8,6 @@
 @media(max-width: 768px) {
     .modal-window__cart {
         max-width: 65%;
-
-
-    }
-
-    .btn {
-        &:focus {
-            &:hover {
-                background-color: #fff;
-
-            }
-        }
     }
 
     .divider {
@@ -100,8 +89,9 @@
 
 
 @media(max-width: 575px) {
-
-
+    .modal-window {
+        max-width: 90%;
+    }
     .modal-window__cart {
         width: 400px;
         max-width: 90%;

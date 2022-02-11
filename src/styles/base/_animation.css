@@ -1,0 +1,8 @@
+.modal-overlay.animate__animated.animate__fadeIn {
+    --animate-duration: .4s;
+    
+}
+
+.animate__animated.animate__fadeIn.modal-window.modal-window__cart {
+    --animate-duration: .4s;
+}
