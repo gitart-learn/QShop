@@ -12,7 +12,7 @@
 <body>
   <header class="menu">
     <div class="container">
-      <a href="#" class="menu__title">QShop</a>
+      <a href="index.html" class="menu__title">QShop</a>
     </div>
   </header>
 
@@ -21,7 +21,9 @@
   <div class="products">
     <div class="container">
       <div class="title">Cart</div>
-
+    </div>
+    
+    <div class="container">
       <div class="cart-content">
         <ul class="cart-list">
 
@@ -107,24 +109,37 @@
             <div class="title__name">Total:</div>
             <div class="total-price__num">329₴</div>
           </div>
-          <button class="btn btn--bg-color-accent btn--size-lg"><div>Order</div></button>
+          <button class="btn btn--bg-color-accent btn--size-lg">
+            <div>Order</div>
+          </button>
         </div>
       </div>
 
     </div>
   </div>
 
-
-
-
-
   <footer class="footer">
     <div class="container">
       <div class="footer__title">QShop</div>
-      <button class="btn btn--bg-color-accent btn--border-color-white btn--weight-normal btn--padding12">View
+      <button id="modal-contacts-btn"
+        class="btn btn--bg-color-accent btn--border-color-white btn--weight-normal btn--padding12">View
         Contacts</button>
     </div>
   </footer>
+
+
+  <div class="modal-overlay"></div>
+  <div id="modal-contacts" class="modal-window animate__animated animate__fadeIn">
+    <div class="modal-cart__header modal-cart__header--margin-bottom-35"> 
+      <div class="title title--margin-bottom-0">Contacts</div>
+      <div class="close">
+        <img data-close="close" src="/icons/close-btn.svg" alt="">
+      </div>
+    </div>
+    <div class="title title--font-size-17">+38097964325</div>
+    <div class="title title--font-size-17">qshop@gmail.com</div>
+  </div>
+
 
   <script type="module" src="./src/js/main.js"></script>
 </body>
