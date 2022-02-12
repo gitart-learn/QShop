@@ -6,3 +6,16 @@
 .animate__animated.animate__fadeIn.modal-window.modal-window__cart {
     --animate-duration: .4s;
 }
+
+.modal-overlay.animate__animated.animate__fadeOut {
+    --animate-duration: .3s;
+    
+}
+
+.animate__animated.animate__fadeOut.modal-window.modal-window__cart {
+    --animate-duration: .3s;
+}
+.animate__animated.animate__fadeOut.modal-window {
+    --animate-duration: .3s;
+
+}
